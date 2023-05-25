@@ -1,5 +1,3 @@
-newlist = []
-for i in range(1,101):
-    if i % 2 == 0:
-        newlist.append(i)
+ 
+newlist = [i for i in range(1,100) if i % 2 == 0]
 print(newlist)
